@@ -20,4 +20,4 @@ for k in range(1,ball+1,1):
     for j in range(1,ball+1,1):
         count+=1
 
-print(f"First bit answer = {answer1/count}, Second bit answer = {answer2/count}, third bit answer = {(answer2+answer3)/count}")
+print(f"2.1 answer = {answer1/count}, 2.2 answer = {answer2/count}, 2.3 answer = {(answer2+answer3)/count}")
