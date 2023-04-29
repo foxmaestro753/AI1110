@@ -292,30 +292,66 @@ the probability that :
 \item first ball is  black and second ball is red
 \item one of them is black the other one is red
 \end{enumerate}
-\section{Explanation}
-Given A box containing 10 black and 8 red balls.
-Total number of balls in box = 18
-\subsection{Both balls are red :}
-Probability of getting a red ball in first draw = $\frac{8}{18}$ = $\frac{4}{9}$
-As the ball is replaced after first throw,
-Hence, Probability of getting a red ball in second draw = $\frac{8}{18}$ = $\frac{4}{9}$
-Now, Probability of getting both balls red = $\frac{4}{9} \times\frac{4}{9}=\frac{16}{81}$
-\subsection{First ball is black and second is red :}
-Probability of getting a black ball in first draw = $\frac{10}{18}$= $\frac{5}{9}$
-As the ball is replaced after first throw,
-Hence, Probability of getting a red ball in second draw = $\frac{8}{18}$ = $\frac{4}{9}$
-Now, Probability of getting first ball is black and second is red = $\frac{5}{9} \times\frac{4}{9}=\frac{20}{81}$
-\subsection{ One of them is black and other is red :}
-Probability of getting a black ball in first draw = $\frac{10}{18}$= $\frac{5}{9}$
-As the ball is replaced after first throw,Hence, Probability of getting a red ball in second draw = $\frac{8}{18}$ = $\frac{4}{9}$
-Now, Probability of getting first ball is black and second is red = $\frac{5}{9} \times\frac{4}{9}=\frac{20}{81}$
-Probability of getting a red ball in first draw = 8/18 = 4/9
-As the ball is replaced after first throw,
-Hence, Probability of getting a black ball in second draw = $\frac{10}{18}$ = $\frac{5}{9}$
-Now, Probability of getting first ball is red and second is black = $\frac{5}{9} \times\frac{4}{9}=\frac{20}{81}$
-Therefore, Probability of getting one of them black and other one red is = Probability of getting first ball black and second one red + Probability of getting first ball red and second one black
-= $\frac{5}{9} \times\frac{4}{9}=\frac{20}{81}$
-\section{Code}
-The python code is as follows : 
-\lstinputlisting[language=Python]{Python/assingment1.py}
+\section{Answer}
+Assume random variable X and Y:
+\begin{itemize}
+\item X: Colour of first ball picked 
+\begin{equation}
+  X = 
+  \left\{
+      \begin{array}{lr} \nonumber
+          1, \text{ for red ball}\\
+          0, \text{ for black ball} 
+      \end{array}
+  \right\}
+  \end{equation}
+\item Y: Colour of second ball picked 
+  \begin{equation}
+    Y = 
+    \left\{
+        \begin{array}{lr} \nonumber
+            1, \text{ for red ball}\\
+            0, \text{ for black ball} 
+        \end{array}
+    \right\}
+    \end{equation}
+\item Both balls are red :
+\begin{align}
+&= \pr{X=1,Y=1}\\ \nonumber
+&= $$\frac{8}{18}\times\frac{8}{18}$$\\ \nonumber
+&=$$\frac{16}{81}$$ 
+\end{align}
+\item Both balls are red :
+\begin{align}
+&= \pr{X=0,Y=1}\\ \nonumber
+&= $$\frac{10}{18}\times\frac{8}{18}$$\\ \nonumber
+&=$$\frac{20}{81}$$
+\end{align}
+\item Both balls are red :
+\begin{align}
+&= \pr{X=1,Y=0} + \pr{X=0,Y=1}\\ \nonumber
+&= $$\frac{8}{18}\times\frac{10}{18}$$ + $$\frac{10}{18}\times\frac{8}{18}$$\\ \nonumber
+&=$$\frac{40}{81}$$
+\end{align}
+\end{itemize}
+% \subsection{Both balls are red :}
+% Probability of getting a red ball in first draw = $\frac{8}{18}$ = $\frac{4}{9}$
+% As the ball is replaced after first throw,
+% Hence, Probability of getting a red ball in second draw = $\frac{8}{18}$ = $\frac{4}{9}$
+% Now, Probability of getting both balls red = $\frac{4}{9} \times\frac{4}{9}=\frac{16}{81}$
+% \subsection{First ball is black and second is red :}
+% Probability of getting a black ball in first draw = $\frac{10}{18}$= $\frac{5}{9}$
+% As the ball is replaced after first throw,
+% Hence, Probability of getting a red ball in second draw = $\frac{8}{18}$ = $\frac{4}{9}$
+% Now, Probability of getting first ball is black and second is red = $\frac{5}{9} \times\frac{4}{9}=\frac{20}{81}$
+% \subsection{ One of them is black and other is red :}
+% Probability of getting a black ball in first draw = $\frac{10}{18}$= $\frac{5}{9}$
+% As the ball is replaced after first throw,Hence, Probability of getting a red ball in second draw = $\frac{8}{18}$ = $\frac{4}{9}$
+% Now, Probability of getting first ball is black and second is red = $\frac{5}{9} \times\frac{4}{9}=\frac{20}{81}$
+% Probability of getting a red ball in first draw = 8/18 = 4/9
+% As the ball is replaced after first throw,
+% Hence, Probability of getting a black ball in second draw = $\frac{10}{18}$ = $\frac{5}{9}$
+% Now, Probability of getting first ball is red and second is black = $\frac{5}{9} \times\frac{4}{9}=\frac{20}{81}$
+% Therefore, Probability of getting one of them black and other one red is = Probability of getting first ball black and second one red + Probability of getting first ball red and second one black
+% = $\frac{5}{9} \times\frac{4}{9}=\frac{20}{81}$
 \end{document}

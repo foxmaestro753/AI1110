@@ -1,4 +1,5 @@
-ball = int(input("Enter the number of balls"))
+from fractions import Fraction
+ball = int(input("Enter the number of balls : "))
 red = int(input("Enter the number of red balls : "))
 black = int(input("Enter the number of black balls : "))
 
@@ -20,4 +21,4 @@ for k in range(1,ball+1,1):
     for j in range(1,ball+1,1):
         count+=1
 
-print(f"2.1 answer = {answer1/count}, 2.2 answer = {answer2/count}, 2.3 answer = {(answer2+answer3)/count}")
+print(f"Question 1 answer = {Fraction(answer1,count)}\nQuestion 2 answer = {Fraction(answer2,count)}\nQuestion 3 answer = {Fraction((answer2+answer3),count)}\n")

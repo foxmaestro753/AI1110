@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  28 APR 2023 22:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  29 APR 2023 18:46
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **Assign1.tex
 (./Assign1.tex
@@ -1108,13 +1107,12 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
  (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-(./Assign1.aux)
+No file Assign1.aux.
 \openout1 = `Assign1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 100.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 100.
-
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1235,8 +1233,6 @@ LaTeX Info: Redefining \ohm on input line 100.
 Package gensymb Info: Using \textohm for \ohm on input line 100.
 Package gensymb Info: Using \textmu for \micro on input line 100.
 Package hyperref Info: Link coloring OFF on input line 100.
-
-(./Assign1.out) (./Assign1.out)
 \@outlinefile=\write4
 \openout4 = `Assign1.out'.
 
@@ -1247,85 +1243,298 @@ Package hyperref Info: Link coloring OFF on input line 100.
 \c@example=\count345
 \c@rem=\count346
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-99.
+98.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-99.
+98.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-99.
+98.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-99.
+98.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-99.
+98.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 320.
+! Missing } inserted.
+<inserted text> 
+                }
+l.323 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.323 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.323 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.323 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.323 \end{align}
+                 
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.323 \end{align}
+                 
+? 
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.323 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.323 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.323 \end{align}
+                 
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.323 \end{align}
+                 
+? 
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.323 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.323 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.329 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.329 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.329 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.329 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.329 \end{align}
+                 
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.329 \end{align}
+                 
+? 
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.329 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.329 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.329 \end{align}
+                 
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.329 \end{align}
+                 
+? 
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.329 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.329 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.335 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.335 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.335 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.335 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.335 \end{align}
+                 
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.335 \end{align}
+                 
+? 
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.335 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.335 \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.335 \end{align}
+                 
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.335 \end{align}
+                 
+? 
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.335 \end{align}
+                 
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.335 \end{align}
+                 
+? 
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
-(./Python/assingment1.py
-LaTeX Font Info:    Trying to load font information for OML+txr on input line 1
-2.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/omltxr.fd
-File: omltxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
-(Font)              Font shape `OML/txmi/m/it' tried instead on input line 12.
-LaTeX Font Info:    Trying to load font information for OMS+txr on input line 2
-3.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 23.
-) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
-/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.357 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.357 \end{document}
+                    
 
 ] (./Assign1.aux)
-Package rerunfilecheck Info: File `Assign1.out' has not changed.
-(rerunfilecheck)             Checksum: 167C878C35FF4F52C6C6B4611364198D;1024.
+
+Package rerunfilecheck Warning: File `Assign1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Assign1.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  531818B98B1ED879E6AD5E0C8EAE78E8;204.
  ) 
 Here is how much of TeX's memory you used:
- 30388 strings out of 476001
- 596331 string characters out of 5789199
- 2137074 words of memory out of 5000000
- 50193 multiletter control sequences out of 15000+600000
- 569452 words of font info for 146 fonts, out of 8000000 for 9000
+ 29869 strings out of 476001
+ 591119 string characters out of 5789199
+ 1872074 words of memory out of 5000000
+ 49723 multiletter control sequences out of 15000+600000
+ 567864 words of font info for 143 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,6n,96p,1175b,1582s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,9n,96p,1175b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
-ve/2023/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023
-/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on Assign1.pdf (1 page, 54225 bytes).
+ve/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023
+/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on Assign1.pdf (1 page, 35450 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 35 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
