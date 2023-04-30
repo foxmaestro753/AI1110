@@ -297,7 +297,7 @@ Assume random variable X and Y:
 \begin{itemize}
 \item X: Colour of first ball picked 
 \[
-  X =
+  X_{1} =
   \begin{cases}
     1, & \text{for red ball}\\
     0, & \text{for black ball}\\
@@ -305,7 +305,7 @@ Assume random variable X and Y:
 \]
 \item Y: Colour of second ball picked 
 \[
-  Y =
+  X_{2} =
   \begin{cases}
     1, & \text{for red ball}\\
     0, & \text{for black ball}\\
@@ -313,20 +313,20 @@ Assume random variable X and Y:
 \]
 \item Both balls are red :
 \begin{align}
-&=\pr{X=1,Y=1}\\
-&=\frac{8}{18}\times\frac{8}{18}\\
+&=\pr{X_{1}=1,X_{2}=1}\\
+&=\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\times\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\\
 &=\frac{16}{81}
 \end{align}
-\item Both balls are red :
+\item First ball is black and second is red :
 \begin{align}
-&=\pr{X=0,Y=1}\\
-&=\frac{10}{18}\times\frac{8}{18}\\
+&=\pr{X_{1}=0,X_{2}=1}\\
+&=\brak{\frac{^{10}C_{1}}{^{18}C_{1}}}\times\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\\
 &=\frac{20}{81}
 \end{align}
-\item Both balls are red :
+\item One of them is black and other is red :
 \begin{align}
-&=\pr{X=1,Y=0} + \pr{X=0,Y=1}\\
-&=\frac{8}{18}\times\frac{10}{18} + \frac{10}{18}\times\frac{8}{18}\\
+&=\pr{X_{1}=1,X_{2}=0} + \pr{X_{1}=0,X_{2}=1}\\
+&=\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\times\brak{\frac{^{10}C_{1}}{^{18}C_{1}}}+\brak{\frac{^{10}C_{1}}{^{18}C_{1}}}\times\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\\
 &=\frac{40}{81}
 \end{align}
 \end{itemize}
