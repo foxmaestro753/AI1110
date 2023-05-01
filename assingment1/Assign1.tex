@@ -285,16 +285,14 @@ columns=fullflexible
 % creates the second title. It will be ignored for other modes.
 %\IEEEpeerreviewmaketitle
 \section{Problem statement}
-Two balls are drawn at random with replacement from box containing 10 black and 8 red balls. Find
-the probability that : 
+Two balls are drawn at random with replacement from box containing 10 black and 8 red balls. Find the probability that : 
 \begin{enumerate}
 \item both balls are red
-\item first ball is  black and second ball is red
 \item one of them is black the other one is red
 \end{enumerate}
 \section{Answer}
 Assume random variable X and Y:
-\begin{itemize}
+\begin{enumerate}
 \item $X_{1}$: Colour of first ball picked 
 \[
   X_{1} =
@@ -313,21 +311,15 @@ Assume random variable X and Y:
 \]
 \item Both balls are red :
 \begin{align}
-&=\pr{X_{1}=1,X_{2}=1}\\
-&=\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\times\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\\
-&=\frac{16}{81}
-\end{align}
-\item First ball is black and second is red :
-\begin{align}
-&=\pr{X_{1}=0,X_{2}=1}\\
-&=\brak{\frac{^{10}C_{1}}{^{18}C_{1}}}\times\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\\
-&=\frac{20}{81}
+&=\pr{\sum_{i = 1}^{2}{X_{i}}=1}\\
+&=^{n}C_{i}\brak{\frac{8}{18}}^{i}\times\brak{\frac{10}{18}}^{n-i}\\
+&= ^{2}C_{2}\brak{\frac{8}{18}}^{2}\times\brak{\frac{10}{18}}^{0}
 \end{align}
 \item One of them is black and other is red :
 \begin{align}
-&=\pr{X_{1}=1,X_{2}=0} + \pr{X_{1}=0,X_{2}=1}\\
-&=\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\times\brak{\frac{^{10}C_{1}}{^{18}C_{1}}}+\brak{\frac{^{10}C_{1}}{^{18}C_{1}}}\times\brak{\frac{^{8}C_{1}}{^{18}C_{1}}}\\
-&=\frac{40}{81}
+&=\pr{\sum_{i = 1}^{2}{X_{i}}=\brak{1,0}}\\
+&=^{n}C_{i}\brak{\frac{8}{18}}^{i}\times\brak{\frac{10}{18}}^{n-i}\\
+&= ^{2}C_{1}\brak{\frac{8}{18}}^{1}\times\brak{\frac{10}{18}}^{1}
 \end{align}
-\end{itemize}
+\end{enumerate}
 \end{document}
