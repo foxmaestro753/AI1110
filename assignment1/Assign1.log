@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  1 MAY 2023 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  2 MAY 2023 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1246,31 +1246,31 @@ Package hyperref Info: Link coloring OFF on input line 100.
 \c@example=\count345
 \c@rem=\count346
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-96.
+94.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
@@ -1278,19 +1278,18 @@ File: ts1txr.fd 2000/12/15 v3.1
 /local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-
 ] (./Assign1.aux)
 Package rerunfilecheck Info: File `Assign1.out' has not changed.
 (rerunfilecheck)             Checksum: 531818B98B1ED879E6AD5E0C8EAE78E8;204.
  ) 
 Here is how much of TeX's memory you used:
- 29885 strings out of 476001
- 591259 string characters out of 5789199
- 1871074 words of memory out of 5000000
- 49725 multiletter control sequences out of 15000+600000
- 569240 words of font info for 145 fonts, out of 8000000 for 9000
+ 29894 strings out of 476001
+ 591396 string characters out of 5789199
+ 1881074 words of memory out of 5000000
+ 49726 multiletter control sequences out of 15000+600000
+ 570556 words of font info for 147 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,10n,96p,1175b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,16n,96p,1175b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
@@ -1298,10 +1297,10 @@ ve/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on Assign1.pdf (1 page, 38597 bytes).
+Output written on Assign1.pdf (1 page, 41209 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

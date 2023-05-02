@@ -291,35 +291,53 @@ Two balls are drawn at random with replacement from box containing 10 black and 
 \item one of them is black the other one is red
 \end{enumerate}
 \section{Answer}
-Assume random variable X and Y:
-\begin{enumerate}
+Assume random variable $X_{1}$ and $X_{2}$ :
+\begin{itemize}
 \item $X_{1}$: Colour of first ball picked 
-\[
-  X_{1} =
-  \begin{cases}
-    1, & \text{for red ball}\\
-    0, & \text{for black ball}\\
-  \end{cases}
-\]
+\begin{align}
+Pr_{X_1}{(n)} &=
+\begin{cases}
+  (1-p), & \text{n = 0, black ball}\\
+  p, & \text{n = 1, red ball}
+\end{cases}\\
+p &= \frac{8}{18}
+\end{align}
 \item $X_{2}$: Colour of second ball picked 
-\[
-  X_{2} =
+\begin{align}
+Pr_{X_2}{(n)} &=
+\begin{cases}
+  (1-p), & \text{n = 0, black ball}\\
+  p, & \text{n = 1, red ball}\\
+\end{cases}\\
+p &= \frac{8}{18}
+\end{align}
+Let us define a random variable X = $X_{1}$ + $X_{2}$
+\begin{align}
+M_{X}\brak{z} &= \sum_{n = -\infty}^{+\infty}{z^{-n}}\Pr_{X}{(n)}\\
+M_{X}\brak{z} &= M_{X_1 + X_2}\brak{z}\\
+&= M_{X_1}\brak{z}\times M_{X_2}\brak{z}
+\end{align}
+\begin{align}
+&= (1-p)^2 + 2(1-p)(p)z^{-1} + p^2z^{-2}\\
+&= \pr{X = 0}+\pr{X = 1} z^{-1}+\pr{X = 2}z^{-2}\\
+&=Pr_{X}{(n)} =
   \begin{cases}
-    1, & \text{for red ball}\\
-    0, & \text{for black ball}\\
+    (1-p)^2, & \text{n = 0}\\
+    2(1-p)p, & \text{n = 1}\\
+    p^2, & \text{n = 2}\\
   \end{cases}
-\]
+\end{align}
 \item Both balls are red :
 \begin{align}
-&=\pr{\sum_{i = 1}^{2}{X_{i}}=1}\\
-&=^{n}C_{i}\brak{\frac{8}{18}}^{i}\times\brak{\frac{10}{18}}^{n-i}\\
-&= ^{2}C_{2}\brak{\frac{8}{18}}^{2}\times\brak{\frac{10}{18}}^{0}
+&=\pr{X=2}\\
+&=p^2\\
+&=\brak{\frac{16}{81}}
 \end{align}
 \item One of them is black and other is red :
 \begin{align}
-&=\pr{\sum_{i = 1}^{2}{X_{i}}=\brak{1,0}}\\
-&=^{n}C_{i}\brak{\frac{8}{18}}^{i}\times\brak{\frac{10}{18}}^{n-i}\\
-&= ^{2}C_{1}\brak{\frac{8}{18}}^{1}\times\brak{\frac{10}{18}}^{1}
+  &=\pr{X=1}\\
+  &=2(1-p)p\\
+  &=\brak{\frac{40}{81}}
 \end{align}
-\end{enumerate}
+\end{itemize}
 \end{document}
