@@ -135,6 +135,7 @@ columns=fullflexible
 \theoremstyle{remark}
 \newtheorem{rem}{Remark}
 \newcommand{\sgn}{\mathop{\mathrm{sgn}}}
+\newcommand{\comb}[2]{{}^{#1}\mathrm{C}_{#2}}
 \providecommand{\abs}[1]{\left\vert#1\right\vert}
 \providecommand{\res}[1]{\Res\displaylimits_{#1}} 
 \providecommand{\norm}[1]{\left\lVert#1\right\rVert}
@@ -288,56 +289,43 @@ columns=fullflexible
 Two balls are drawn at random with replacement from box containing 10 black and 8 red balls. Find the probability that : 
 \begin{enumerate}
 \item both balls are red
-\item one of them is black the other one is red
+\item one of them is black and the other one is red
 \end{enumerate}
 \section{Answer}
-Assume random variable $X_{1}$ and $X_{2}$ :
-\begin{itemize}
-\item $X_{1}$: Colour of first ball picked 
+Defining random variable $X_{i}$ such that:
+\begin{enumerate}
+\item $X_{i}$: Colour of $i^{th}$ ball picked 
 \begin{align}
-Pr_{X_1}{(n)} &=
+X_{j} &=
 \begin{cases}
-  (1-p), & \text{n = 0, black ball}\\
-  p, & \text{n = 1, red ball}
+  1, & \text{Red ball}\\
+  0, & \text{Black ball}
 \end{cases}\\
-p &= \frac{4}{9}
 \end{align}
-\item $X_{2}$: Colour of second ball picked 
+For picking two balls, j = 1, 2\\
+Let us define, X = $X_{1}$ + $X_{2}$
 \begin{align}
-Pr_{X_2}{(n)} &=
+X &=
 \begin{cases}
-  (1-p), & \text{n = 0, black ball}\\
-  p, & \text{n = 1, red ball}\\
-\end{cases}\\
-p &= \frac{4}{9}
-\end{align}
-Let us define a random variable X = $X_{1}$ + $X_{2}$
-\begin{align}
-M_{X}\brak{z} &= \sum_{n = -\infty}^{+\infty}{z^{-n}}P_{X}{(n)}\\
-M_{X}\brak{z} &= M_{X_1 + X_2}\brak{z}\\
-&= M_{X_1}\brak{z}\times M_{X_2}\brak{z}
+  0, & \text{none are red}\\
+  1, & \text{one of them red}\\
+  2, & \text{both red}\\
+\end{cases}
 \end{align}
 \begin{align}
-&= (1-p)^2 + 2(1-p)(p)z^{-1} + p^2z^{-2}\\
-&= \pr{X = 0}+\pr{X = 1} z^{-1}+\pr{X = 2}z^{-2}\\
-&=P_{X}{(n)} =
-  \begin{cases}
-    (1-p)^2, & \text{n = 0}\\
-    2(1-p)p, & \text{n = 1}\\
-    p^2, & \text{n = 2}\\
-  \end{cases}
+X \sim Bin(n,p)\\
+p = \frac{4}{9}\\
+n = 2 
 \end{align}
 \item Both balls are red :
 \begin{align}
-&=\pr{X=2}\\
-&=p^2\\
-&=\brak{\frac{16}{81}}
+P_{x}(2) &= \comb{2}{2}\brak{\frac{4}{9}}^2\brak{\frac{5}{9}}^0\\
+&= \frac{16}{81}
 \end{align}
 \item One of them is black and other is red :
 \begin{align}
-  &=\pr{X=1}\\
-  &=2(1-p)p\\
-  &=\brak{\frac{40}{81}}
+P_{x}(1) &= \comb{2}{1}\brak{\frac{4}{9}}^1\brak{\frac{5}{9}}^1\\
+&= \frac{40}{81}
 \end{align}
-\end{itemize}
+\end{enumerate}
 \end{document}
