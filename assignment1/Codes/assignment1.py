@@ -8,10 +8,12 @@ n = 2          #number of trails
 p='4/9'        #probability of success
 p=Fraction(p)  #change the type of x from string to Fraction
 p=float(p)     #change the type of x from Fraction to float
-# defining list of r values
-r_values = list(range(n + 1))
 # list of pmf values
-dist = [binom.pmf(r, n, p) for r in r_values ]
+dist0 = [binom.pmf(0, n, p)]
+dist1 = [binom.pmf(1, n, p)]
+dist2 = [binom.pmf(2, n, p)]
 # plotting the graph
-plt.bar(r_values, dist)
+plt.bar(0, dist0)
+plt.bar(1, dist1)
+plt.bar(2, dist2)
 plt.show()
