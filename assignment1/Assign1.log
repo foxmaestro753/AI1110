@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  4 MAY 2023 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  4 MAY 2023 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1245,43 +1245,32 @@ Package hyperref Info: Link coloring OFF on input line 100.
 \c@lemma=\count344
 \c@example=\count345
 \c@rem=\count346
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
+99.
 
-
-! LaTeX Error: Command \comb already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 ...command{\comb}[2]{{}^{#1}\mathrm{C}_{#2}}
-                                                  
-? 
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 3
-00.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 3
-00.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
+99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 3
-00.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
+99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 3
-00.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
+99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 3
-00.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
+99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
