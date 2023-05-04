@@ -122,6 +122,11 @@ columns=fullflexible
 
 \providecommand{\mbf}{\mathbf}
 \providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
+%defined \comb here%
+\newcommand*{\permcomb}[4][0mu]{{{}^{#3}\mkern#1#2_{#4}}}
+\newcommand*{\perm}[1][-3mu]{\permcomb[#1]{P}}
+\newcommand*{\comb}[1][-1mu]{\permcomb[#1]{C}}
+%%
 \providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
 \providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
 \providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right.}}
@@ -292,15 +297,15 @@ Two balls are drawn at random with replacement from box containing 10 black and 
 \item one of them is black and the other one is red
 \end{enumerate}
 \section{Answer}
-Defining random variable $X_{i}$ such that:
+Defining random variable $X_{j}$ such that:
 \begin{enumerate}
-\item $X_{i}$: Colour of $i^{th}$ ball picked 
+\item $X_{j}$: Colour of $j^{th}$ ball picked 
 \begin{align}
 X_{j} &=
 \begin{cases}
   1, & \text{Red ball}\\
   0, & \text{Black ball}
-\end{cases}\\
+\end{cases}
 \end{align}
 For picking two balls, j = 1, 2\\
 Let us define, X = $X_{1}$ + $X_{2}$
@@ -319,13 +324,13 @@ n = 2
 \end{align}
 \item Both balls are red :
 \begin{align}
-P_{x}(2) &= \comb{2}{2}\brak{\frac{4}{9}}^2\brak{\frac{5}{9}}^0\\
+  \pr{X=2} &= \comb{2}{2}\brak{\frac{4}{9}}^2\brak{\frac{5}{9}}^0\\
 &= \frac{16}{81}
 \end{align}
 \item One of them is black and other is red :
 \begin{align}
-P_{x}(1) &= \comb{2}{1}\brak{\frac{4}{9}}^1\brak{\frac{5}{9}}^1\\
-&= \frac{40}{81}
+  \pr{X=1} &= \comb{2}{1}\brak{\frac{4}{9}}^1\brak{\frac{5}{9}}^1\\
+  &= \frac{40}{81}
 \end{align}
 \end{enumerate}
 \end{document}
