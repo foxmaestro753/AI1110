@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  4 MAY 2023 22:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  6 MAY 2023 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Assign1.tex
-(./Assign1.tex
+**assign2.tex
+(./assign2.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-04-20>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -1107,12 +1107,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
  (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-No file Assign1.aux.
-\openout1 = `Assign1.aux'.
+(./assign2.aux)
+\openout1 = `assign2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 100.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 100.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1233,8 +1234,10 @@ LaTeX Info: Redefining \ohm on input line 100.
 Package gensymb Info: Using \textohm for \ohm on input line 100.
 Package gensymb Info: Using \textmu for \micro on input line 100.
 Package hyperref Info: Link coloring OFF on input line 100.
+
+(./assign2.out) (./assign2.out)
 \@outlinefile=\write4
-\openout4 = `Assign1.out'.
+\openout4 = `assign2.out'.
 
 \c@theorem=\count341
 \c@problem=\count342
@@ -1243,31 +1246,31 @@ Package hyperref Info: Link coloring OFF on input line 100.
 \c@example=\count345
 \c@rem=\count346
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-99.
+95.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-99.
+95.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-99.
+95.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-99.
+95.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-99.
+95.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
@@ -1276,24 +1279,18 @@ File: ts1txr.fd 2000/12/15 v3.1
 
 
 
-] (./Assign1.aux)
-
-Package rerunfilecheck Warning: File `Assign1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Assign1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  531818B98B1ED879E6AD5E0C8EAE78E8;204.
+] (./assign2.aux)
+Package rerunfilecheck Info: File `assign2.out' has not changed.
+(rerunfilecheck)             Checksum: 531818B98B1ED879E6AD5E0C8EAE78E8;204.
  ) 
 Here is how much of TeX's memory you used:
- 29884 strings out of 476001
- 591228 string characters out of 5789199
- 1871074 words of memory out of 5000000
- 49728 multiletter control sequences out of 15000+600000
- 569240 words of font info for 145 fonts, out of 8000000 for 9000
+ 29899 strings out of 476001
+ 591418 string characters out of 5789199
+ 1878074 words of memory out of 5000000
+ 49732 multiletter control sequences out of 15000+600000
+ 567864 words of font info for 143 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,16n,96p,1175b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,9n,96p,1175b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texli
@@ -1301,10 +1298,10 @@ ve/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on Assign1.pdf (1 page, 40954 bytes).
+Output written on assign2.pdf (1 page, 37690 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 25 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
