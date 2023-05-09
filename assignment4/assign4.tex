@@ -237,27 +237,33 @@ point at:
 \end{tikzpicture}
 
 \section{Answer}
-Let X be the random variable representing the number of successful outcomes in n = 1 trial, and let p be the probability of success for each trial. Since there are 8 possible outcomes and they are equally likely, we have p = 1/8 and X = 1 everywhere as only one trial was allowed
-
+Since each outcome is equally likely, we can model this situation with a discrete uniform distribution. Let X be the random variable representing the number that the arrow points at. Then X has the following probability mass function:
+\begin{align}
+\pr{X} &=
+\begin{cases}
+\frac{1}{8} & 1\leq i \leq 8\\
+0 & \text{otherwise}\\
+\end{cases}
+\end{align}
 \begin{enumerate}
 \item \pr{8} : 
 \begin{align}
-\pr{X=1} &= \comb{1}{1}\brak{\frac{1}{8}}^1\brak{\frac{7}{8}}^0\\
-&= \frac{1}{8}
+\pr{X=8} &= \frac{1}{8}
 \end{align}
 \item \pr{\text{Odd numbers}} : 
 \begin{align}
-\pr{X=1} &= \comb{1}{1}\brak{\frac{4}{8}}^1\brak{\frac{4}{8}}^0\\
-&= \frac{4}{8}
+\sum_{n = 0}^{3}\pr{X=2n+1}
+&= \frac{4}{8}=\frac{1}{2}
 \end{align}
-\item \pr{\text{Number}>2} : 
+\item \pr{\text{Number}>2} :
 \begin{align}
-\pr{X=1} &= \comb{1}{1}\brak{\frac{6}{8}}^1\brak{\frac{2}{8}}^0\\
-&= \frac{3}{4}
+\sum_{n = 3}^{8}\pr{X=n}
+&= \frac{6}{8}=\frac{3}{4}
 \end{align}
 \item \pr{\text{Number}<9} : 
+All numbers are less than 9
 \begin{align}
-\pr{X=1} &= \comb{1}{1}\brak{\frac{8}{8}}^1\brak{\frac{0}{8}}^0\\
+\sum_{n = 1}^{8}\pr{X=n}
 &= \frac{8}{8} = 1
 \end{align}
 \end{enumerate}
